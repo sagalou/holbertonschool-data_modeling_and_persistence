@@ -1,0 +1,1 @@
+SELECT genre, SUM(genre) FROM books GROUP BY genre;
